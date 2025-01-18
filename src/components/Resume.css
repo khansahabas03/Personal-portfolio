@@ -1,0 +1,21 @@
+#resume {
+    padding: 2rem;
+    text-align: center;
+}
+
+.resume-download-button {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.resume-download-button:hover {
+    background-color: #555;
+    transition: 2s ease;
+    transform: rotate(360deg);
+}
